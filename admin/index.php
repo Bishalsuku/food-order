@@ -4,7 +4,16 @@
         <!-- Main Content Section starts -->
         <div class="main-content">
             <div class="wrapper">
-               <h1>Dashboard</h1>
+               <h1>Dashboard</h1><br><br>
+
+                <?php
+                if(isset($_SESSION['login']))
+                {
+                echo $_SESSION['login']; // displaying session message
+                unset($_SESSION['login']); // removing session message
+                }
+                ?>
+                <br><br>
                 <div class="col-4">
                     <h1>5</h1>
                    </br>

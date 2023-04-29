@@ -17,15 +17,59 @@
   float: none;
   clear: both;
 }
+.btn-primary {
+  text-decoration: none;
+  background-color: #70a1ff;
+  padding: 1%;
+  color: white;
+}
+.btn-primary:hover {
+  background-color: #5352ed;
+}
+.tbl-30 {
+  width: 30%;
+}
 .tbl-full {
   width: 100%;
+}
+table tr th {
+  border-bottom: 1px solid black;
+  text-align: left;
+  padding: 1%;
+}
+table tr td {
+  padding: 1%;
+}
+.btn-secondary {
+  text-decoration: none;
+  background-color: #7bed9f;
+  padding: 1%;
+}
+.btn-secondary:hover {
+  background-color: #2ed573;
+  color: white;
+}
+.btn-danger {
+  text-decoration: none;
+  background-color: #ff6b81;
+  padding: 1%;
+  color: white;
+}
+.btn-danger:hover {
+  background-color: #ff4757;
+  color: blue;
+}
+
+.success {
+  color: #7bed9f;
+}
+.error {
+  color: #ff4757;
 }
 .menu {
   border-bottom: 1px solid;
 }
-.mugi p {
-  color: #ff4757;
-}
+
 .menu ul li {
   display: inline;
   padding: 1%;
@@ -56,6 +100,13 @@
 .footer {
   background-color: #ff4757;
 }
-.footer.wrapper p.text-center {
+.footer .wrapper p {
   color: white;
+}
+
+.login {
+  width: 20%;
+  border: 1px solid grey;
+  margin: 10% auto;
+  padding: 2%;
 }
